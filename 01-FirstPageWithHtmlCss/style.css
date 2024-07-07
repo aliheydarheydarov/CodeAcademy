@@ -1,0 +1,165 @@
+
+*{
+    padding: 0px;
+    margin:0px;
+}
+
+:root {
+    --font: Metropolis, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+#header-div{
+    height: 60px;
+    display: flex;
+    background-color: rgb(44, 62,80 );
+    width: 100%;
+    position:fixed;
+    top:0;
+}
+
+#main-logo {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+
+}
+
+#links-section {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    font-size: 80%;
+}
+
+
+.a1:hover{
+    
+    color: hsl(168, 75.7%, 42%);
+    
+
+    }
+.a2:hover{
+    
+    color: hsl(168, 75.7%, 42%);
+        
+}
+.a3:hover{
+    
+    color: hsl(168, 75.7%, 42%);
+            
+        
+}
+
+#first-section{
+    background-color: hsl(168, 75.7%, 42%);
+        height: 500px;
+}
+
+a{
+    text-decoration: none;
+    color: #ffff;
+
+
+}
+
+#body-div{
+    text-align: center;
+    font-size: 250%;
+    
+}
+
+#avatar{
+    width: 150px;
+    margin-top: 100px;
+}
+.star{
+    width: 30px;
+    margin-left:10px;
+    margin-right:5px;
+
+
+}
+
+
+#mydiv{
+    letter-spacing:-0.12cm;
+    font-weight: 200;
+        
+}
+
+
+body{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #ffff;
+    font-weight: 700;
+
+
+}
+
+#second-section{
+    color:rgb(44, 62,80 ); font-size: 80%;
+    margin: 60px;
+
+}
+
+#photos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-left: 80px; 
+    padding-right: 80px; 
+    justify-content: center;
+    align-items: center;
+}
+
+#photos img {
+    width: 250px;
+    margin: 10px;
+}
+
+.word-box1{
+    width: 50%;
+    height: 150px;
+    font-size: 45%;
+    padding: 10px; 
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    padding-left:400px; 
+    font-weight: 400;
+}
+
+.word-box2{
+     width: 50%;
+     height: 140px; 
+
+    font-size: 45%;
+    padding: 10px; 
+    align-items: center;
+    justify-content: center;
+    text-align:left;
+     padding-right: 400px; 
+    font-weight: 400; 
+}
+
+#btn{
+   border-radius:6px;
+   background-color: transparent;
+   width: 180px;
+   height: 50px;
+   border-color: solid white;
+   border: 2px solid white;
+   
+} 
+
+#btn:hover {
+    background-color: white; 
+    a{
+        color:black;
+        }
+    
+ }
