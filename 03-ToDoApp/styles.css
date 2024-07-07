@@ -1,0 +1,64 @@
+*{
+
+    padding: 0px;
+    margin:0px;
+}
+
+body{
+    
+    
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
+.input{
+    background-color:transparent;
+    border: none;
+    padding:5px;
+    
+
+}
+
+.input:focus {
+    outline: none;
+  }
+
+  .head{
+    /* border: 1px solid black; */
+    h1{
+        padding:5px;
+    }
+
+}
+
+.bttn{
+    background-color:transparent;
+    border: none;
+    padding:5px;
+    color:rgb(99, 98, 98);
+    
+    
+
+
+}
+
+.btn2{
+    margin: 7px;
+    background-color:transparent;
+    border: none;
+    padding:5px;
+    color:rgb(99, 98, 98);
+    margin-bottom: 5px;
+}
+.btn2:hover, .bttn:hover{
+    color:black;
+}
+
+
+
+.field{
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid rgb(217, 217, 217);
+    border-top: 1px solid rgb(217, 217, 217);
+}
